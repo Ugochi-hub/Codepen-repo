@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    text-align: left;
+    color: black;
+    padding-left: 400px;
+    padding-top: 100px;
+    margin: inherit;
+}
+
+.wrapper {
+    border: black;
+    background-color: royalblue;
+    width: 600px;
+    padding: 5px;
+    list-style: none;
+    margin: 20px auto 10px auto;
+    font-size: large;
+    justify-content: space-between;
+}
+.wrapper h2 {
+    margin-top: 0;
+    padding: 20px;
+    line-height: 20pt;
+    position: relative;
+}
+
+.wrapper h4 {
+    padding: 12px;
+    color: white;
+    margin: 6px auto;
+    background-color: navy;
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    position: relative;
+}
+.input-group {
+    margin-bottom: 8px;
+    width: 80%;
+    position: relative;
+    padding: 5px 0;
+    border-radius: 80%;
+    justify-content: space-between;
+}
+.input-box {
+    padding-bottom: 10px;
+    width: 100%;   
+
+}
+
+.input-group button {
+    justify-content: center;
+    margin-left: 250px;
+    border-radius: 200px;
+    border-width: 80%;
+}
+.input-group h4 {
+    position: relative;
+}
+form input[type=text],
+form input[type=email]
+
+input[type="tel"] {
+    font-size: 10px;
+    text-align: left;
+    padding: 8px 10px;
+}
+.input-group:nth-of-type(6) input[type=tel]{
+    border: black;
+    padding: 10px;
+}
+
+.input-group:nth-of-type(4) input[type=tel]{
+    border: black;
+    padding: 10px;
+}
